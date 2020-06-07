@@ -40,7 +40,7 @@ margin-top: 10px;
 } */
 .btn{
     border-radius: 5px;
-    background: rgb(206, 154, 255);
+    background: rgba(0, 128, 128, 0.904);
     border-style: none;
     height: 50px;
     width: 85%;

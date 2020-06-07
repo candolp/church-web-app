@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./App.css";
 import 'primeflex/primeflex.css';
 import 'primereact/resources/themes/nova-light/theme.css';
@@ -8,7 +8,7 @@ import Header from "./components/header";
 import TopNavBar from "./components/TopNavBar/index";
 import Menu from "./components/Menu/index";
 import Table from "./components/Table/index";
-import Thead from './components/TableHeader/index';
+import Thead from "./components/TableHeader/index";
 import AddMember from "./components/Modal";
 import Login from './Pages/login';
 
@@ -16,9 +16,11 @@ function App() {
   const [showDialog, setShowDialog] = useState(false);
 
   function showModal(value) {
-    setShowDialog(value);}
-  
+    setShowDialog(value);
+  }
+
   return (
+
     <div className="App">
       {/* <div className="header">
         <Header />
@@ -30,9 +32,15 @@ function App() {
         <TopNavBar />
       </div>  
 
-      <div className='tableHead'>
-        <Thead/>
+
+        <div className="tableHead">
+          <Thead />
+        </div>
+        <div className="contentDisplay">
+          <Table />
+        </div>
       </div>
+
       <div className="contentDisplay">       
         <Table />
       </div> */}

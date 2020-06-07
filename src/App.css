@@ -7,7 +7,7 @@
   height:100vh;
 } */
 .header {
-  background-color: rgb(150, 73, 226);
+  background-color: rgba(0, 128, 128, 0.904);
   grid-column: 2/3;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -38,7 +38,7 @@
   grid-column: 2/3;
   /* background-color: seagreen; */
   position: relative;
-  bottom: 15px;
+  bottom: 33px;
   /* grid-row: 3/3; */
   overflow-y:scroll;
   height: 400px;
@@ -48,7 +48,7 @@
 .tableHead{
   height: 50px;
   border: .7px solid rgb(207, 207, 207);
-  background-color: teal;
+  background-color: rgba(0, 128, 128, 0.904);
   position: relative;
   bottom: 16px;
 }
