@@ -1,0 +1,45 @@
+
+.tHead{
+    margin-left: -15px;
+    padding-top: 12px;
+}
+.tHead tr{
+    font-size: 0.9em;
+    min-width: 400px;
+    /* text-align:left; */
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+
+ .time{
+    position: relative;
+    right: -40px;
+}
+
+.contact{
+    position: relative;
+    right: -35px;
+}
+
+.adults{
+    position: relative;
+    left: 22px;
+}
+.member{
+    position: relative;
+    right: 10px;
+}
+
+.session, .sc{
+    position: relative;
+    left: 45px;
+}
+
+/* .tHead th{
+    color: #ffffff;
+    font-weight: bold;
+    
+    
+} */

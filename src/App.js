@@ -1,24 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import "./App.css";
+import Header from "./components/header";
+import TopNavBar from "./components/TopNavBar/index";
+import Menu from "./components/Menu/index";
+import Table from "./components/Table/index";
+import Thead from './components/TableHeader/index';
+import AddMember from "./components/Modal";
 
 function App() {
+  const [showDialog, setShowDialog] = useState(false);
+
+  function showModal(value) {
+    setShowDialog(value);}
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header">
+        <Header />
+      </div>
+      <div className="sideNavBar">
+        <Menu />
+      </div>
+      <div className="topNavBar">
+        <TopNavBar />
+      </div>  
+
+      <div className='tableHead'>
+        <Thead/>
+      </div>
+      <div className="contentDisplay">       
+        <Table />
+        <AddMember setShowDialog={showModal} showModal={showDialog}/>
+      </div>
     </div>
   );
 }
