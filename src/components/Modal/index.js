@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 function AddMember() {
+
   // const show = this.props.showModal ? "showModal" : "closeModal"
 
   return (
@@ -33,6 +34,8 @@ function AddMember() {
                 {/* <a href="#">Forget Password</a> */}
               </form>
             </div>
+ 
+
           </div>
           {/* <div class="modal-footer">
             <h3>Modal Footer</h3>
