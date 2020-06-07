@@ -1,11 +1,16 @@
 import React, {useState} from "react";
 import "./App.css";
+import 'primeflex/primeflex.css';
+import 'primereact/resources/themes/nova-light/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 import Header from "./components/header";
 import TopNavBar from "./components/TopNavBar/index";
 import Menu from "./components/Menu/index";
 import Table from "./components/Table/index";
 import Thead from './components/TableHeader/index';
 import AddMember from "./components/Modal";
+import Login from './Pages/login';
 
 function App() {
   const [showDialog, setShowDialog] = useState(false);
@@ -15,7 +20,7 @@ function App() {
   
   return (
     <div className="App">
-      <div className="header">
+      {/* <div className="header">
         <Header />
       </div>
       <div className="sideNavBar">
@@ -30,8 +35,8 @@ function App() {
       </div>
       <div className="contentDisplay">       
         <Table />
-        <AddMember setShowDialog={showModal} showModal={showDialog}/>
-      </div>
+      </div> */}
+      <Login/>
     </div>
   );
 }

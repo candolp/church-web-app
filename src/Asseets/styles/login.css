@@ -1,0 +1,13 @@
+.wrapper {
+    background-color:'#f4f4f4';
+    flex: 1;
+    margin-top: 40px;
+}
+.loginForm {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
