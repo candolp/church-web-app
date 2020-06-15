@@ -1,3 +1,8 @@
+.logContainer{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
 .topNavBarr ul li {
   list-style: none;
   float: left;
@@ -10,4 +15,49 @@
  .topNavBarr a{
     text-decoration: none;
     color: rgba(0, 128, 128, 0.904);
+} 
+
+
+
+
+.search {
+  width: 100%;
+  /* position: relative; */
+  display: flex;
+}
+
+.searchTerm {
+  width: 70%;
+  border: 1.5px solid rgba(0, 128, 128, 0.904);
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color:rgba(0, 128, 128, 0.904);
+}
+
+.searchButton {
+  width: 40px;
+  height: 30px;
+  border: 1px solid rgba(0, 128, 128, 0.904);
+  background: rgba(0, 128, 128, 0.904);
+  text-align: center;
+  color: #f0f0f0;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.searchIcon{
+margin-top: 3px;
+  height: 20px;
+  width: 20px;
+}
+.wrap{
+  margin-top: 9px;
 }

@@ -1,32 +1,24 @@
-/* .App {
+.App {
   display: grid;
-  grid-gap: 2px;
+  grid-gap: 8px;
   grid-template-columns: 1fr 5fr;
   grid-template-rows:0fr;
+  grid-auto-rows: minmax(100px, auto);
   background-color: rgba(235, 235, 235, 0.466);
   height:100vh;
-} */
+  width: 100vw;
+  background-image: url(./Asseets/images/AddmemberPic.jpg); 
+  background-size: cover;
+}
 .header {
   background-color: rgba(0, 128, 128, 0.904);
   grid-column: 2/3;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  height: 100px;
+  height: 110px;
   position: relative;
   top: -10px;
 }
-
-.topNavBar {
-  /* background-color: red; */
-  grid-column: 2/3;
-  /* position: relative;  */
-  bottom: 90px;
-  height: 50px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border: .7px solid rgb(207, 207, 207);
-}
-
 
 .sideNavBar {
   grid-row: 1/4;
@@ -37,18 +29,5 @@
 .contentDisplay {
   grid-column: 2/3;
   /* background-color: seagreen; */
-  position: relative;
-  bottom: 33px;
-  /* grid-row: 3/3; */
-  overflow-y:scroll;
-  height: 400px;
-  
-}
-
-.tableHead{
-  height: 50px;
-  border: .7px solid rgb(207, 207, 207);
-  background-color: rgba(0, 128, 128, 0.904);
-  position: relative;
-  bottom: 16px;
+  /* grid-row: 3/3; */ 
 }

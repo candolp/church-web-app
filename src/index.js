@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import * as firebase from "firebase";
+import { BrowserRouter } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.css';
 
 const firebaseConfig = {
@@ -14,16 +15,17 @@ const firebaseConfig = {
   storageBucket: "ghana-church-app.appspot.com",
   messagingSenderId: "184463688443",
   appId: "1:184463688443:web:824547e55a7ebdf8e2e65e",
-  measurementId: "G-P3K3D07VFS"
+  measurementId: "G-P3K3D07VFS",
 };
-
 
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -8,7 +8,8 @@ class MenuCard extends Component {
 
   render() {
     return (
-      <div className="card">
+      <div className="card" onClick={this.props.onClick}>
+        
         <img className="logo" src={this.props.image} alt="logo" />
         <div className="floatText">{this.props.name}</div>
       </div>

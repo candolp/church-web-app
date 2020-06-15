@@ -8,10 +8,10 @@ margin-top: 10px;
     bottom: 20px;
 }
 .churchLogoImage{
-    background-color: skyblue;
-    padding:10px ;
-    width: 50px;
-    height: 50px;
+    background-color: skyblue; 
+    padding:px ;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     display: grid;
     justify-content: center;
@@ -22,11 +22,20 @@ margin-top: 10px;
 .churchLogoImage img{
     width: 40px;
     height: 40px;
+
+
 }
 .middle{
     position: relative;
     top: 30px;
     right: 20px;
+   
+}
+
+.middle :hover, .bottom :hover{
+color: grey;
+cursor: pointer;
+
 }
 
 .bottom{
@@ -54,6 +63,24 @@ margin-top: 10px;
 .addIcon{
     width: 10px;
     height: 10px;
-    /* position: relative;
-    top: 8px; */
+
 }
+
+.btn_cs.active{
+    border-radius: 5px;
+    background: rgba(0, 128, 128, 0.904);
+    border-style: none;
+    height: 50px; 
+    width: 85%;
+    padding: 17px;
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.btn_cs{
+    display: none;
+}
+

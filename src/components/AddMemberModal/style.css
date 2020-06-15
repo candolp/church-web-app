@@ -1,0 +1,147 @@
+:root {
+    --modal-duration: 1s;
+    --modal-color:rgba(0, 128, 128, 0.904);
+  }
+  
+  /* body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    font-size: 17px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(..//..//Asseets/images/AddmemberPic.jpg); 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  } */
+
+  .showModal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .closeModal {
+    display: none;
+  }
+  
+  .modal-content {
+    margin: 10% auto;
+    width: 400px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    position: relative;
+    bottom: 50px;
+  }
+  
+  .modal-header h2,
+  .modal-footer h3 {
+    margin: 0;
+  }
+  
+  .modal-header {
+    background: var(--modal-color);
+    padding: 15px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .modal-body {
+    padding: 10px 20px;
+    background: rgb(224, 224, 224);
+  }
+  
+  .modal-footer {
+    background: var(--modal-color);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .close {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    background: rgba(0, 128, 128, 0.904);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #38c5cf;
+    color: #000;
+}
+
+/* 
+.BBQ{
+  background-image: url(..//..//Asseets/images/AddmemberPic.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+} */

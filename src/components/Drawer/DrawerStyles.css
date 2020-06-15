@@ -1,0 +1,10 @@
+.drawer-tab{
+    color: blue;
+    border: 2px solid green;
+    width: 100px;
+}
+.drawerBackground{
+    background-color: rgb(206, 206, 206);
+    width: 250px;
+    height: 100vh;
+}

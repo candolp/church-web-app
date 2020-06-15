@@ -1,0 +1,21 @@
+
+.topNavBar {
+  grid-column: 2/3;
+  bottom: 90px;
+  height: 50px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border: .7px solid rgba(0, 128, 128, 0.904);
+}
+
+
+.tableHead{
+  height: 50px;
+  border: 1px solid rgba(0, 128, 128, 0.904);
+  background-color: rgba(0, 128, 128, 0.904);
+}
+
+.tbl{
+    overflow-y:scroll;
+  height: 400px;
+}

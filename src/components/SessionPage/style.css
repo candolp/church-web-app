@@ -1,9 +1,9 @@
 
-.tHead{
-    margin-left: -15px;
+.SessionThead{
+    margin-left: -40px;
     padding-top: 12px;
 }
-.tHead tr{
+.SessionThead tr{
     font-size: 0.9em;
     min-width: 400px;
     /* text-align:left; */
@@ -13,28 +13,36 @@
     color: aliceblue;
 }
 
- .time{
+ .timee{
     position: relative;
-    right: -30px;
+    right: -18px;
 }
 
-.contact{
+.contactt{
     position: relative;
-    right: -35px;
+    right: px;
 }
 
-.adults{
+.adultss{
     position: relative;
-    left: 22px;
+    left: 13px;
 }
-.member{
+.childrenn{
+    position: relative;
+    right: 15px;
+}
+.memberr{
     position: relative;
     right: 10px;
 }
 
-.session, .sc{
+ .scc{
     position: relative;
-    left: 45px;
+    left: 35px;
+}
+.sessionn{
+    position: relative;
+    left: 15px;
 }
 
 /* .tHead th{
